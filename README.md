@@ -45,6 +45,13 @@ You should see containers for Redis and Qdrant running.
 
 **Note:** This repo only manages infrastructure. The application logic resides in the frontend and backend repositories.
 
+## 🌐 Deployment URLs
+
+- **Frontend (live site):** https://intellinews-hrct.onrender.com/ 
+- **Backend (API):** https://rag-powered-chatbot-backend-gegq.onrender.com
+
+> These URLs are managed in separate repos. This infra repo only provides supporting services (Redis, Qdrant).
+
 ## 📄 License
 
 MIT License
