@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+frontend/
+backend/
+
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*       # excludes .env.local, .env.development, etc.
+!.env.example  # keep the example file
+
+# Build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# npm / yarn / pnpm lock files (optional if you want to allow committing lock files)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Docker
+docker-compose.override.yml
+*.local
+
+# Misc
+*.tmp
+*.swp
